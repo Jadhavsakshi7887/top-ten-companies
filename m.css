@@ -1,37 +1,32 @@
-/* General Styles */
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(120deg, #4B0082, #3E0057); /* Dark purple background */
-    color: #fff; /* White text color */
-    line-height: 1.6; /* Improved line height for readability */
+    background: linear-gradient(120deg, #4B0082, #3E0057); 
+    color: #fff; 
+    line-height: 1.6; 
 }
-
-/* Header Styles */
 header {
-    background: linear-gradient(to right, #6A0FAD, #A10FAD); /* Gradient from dark purple to lighter purple */
+    background: linear-gradient(to right, #6A0FAD, #A10FAD); 
     color: white;
     text-align: center;
-    padding: 30px 0; /* Adjusted padding */
+    padding: 30px 0; 
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-    border-bottom: 5px solid #A10FAD; /* A lighter shade for contrast */
+    border-bottom: 5px solid #A10FAD; 
 }
-
 h1 {
     margin: 0;
-    font-size: 2.5rem; /* Reduced size */
-    letter-spacing: 1.2px; /* Adjusted letter spacing */
+    font-size: 2.5rem; 
+    letter-spacing: 1.2px; 
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     font-weight: bold;
 }
 
-/* Company List Styles */
 #company-list {
-    padding: 30px; /* Adjusted padding */
+    padding: 30px;
     margin: 40px auto;
     max-width: 1000px;
-    background-color: #1C1C1C; /* Dark background for the list */
+    background-color: #1C1C1C; 
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     transition: transform 0.3s ease-in-out;
@@ -42,26 +37,24 @@ h1 {
 }
 
 #company-list h2 {
-    color: #00BFFF; /* Bright sky blue for headings */
+    color: #00BFFF; 
     text-align: center;
-    margin-bottom: 30px; /* Adjusted margin */
-    font-size: 2rem; /* Reduced size */
+    margin-bottom: 30px; 
+    font-size: 2rem; 
     font-weight: 600;
-    letter-spacing: 1.2px; /* Adjusted letter spacing */
+    letter-spacing: 1.2px; 
     text-transform: uppercase;
 }
-
-/* List Styles */
 ul {
     list-style-type: none;
     padding: 0;
 }
 
 li {
-    margin-bottom: 20px; /* Adjusted margin */
-    padding: 15px; /* Adjusted padding */
-    background-color: #333; /* Dark background for list items */
-    border: 1px solid #555; /* Slightly lighter border */
+    margin-bottom: 20px; 
+    padding: 15px; 
+    background-color: #333; 
+    border: 1px solid #555; 
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
@@ -71,41 +64,40 @@ li {
 }
 
 li:hover {
-    background-color: #444; /* Darker shade on hover */
+    background-color: #444; 
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
 }
 
 li h3 {
     margin: 0;
-    color: #00BFFF; /* Bright sky blue for company names */
-    font-size: 1.6rem; /* Reduced size */
+    color: #00BFFF; 
+    font-size: 1.6rem; 
     font-weight: 500;
 }
 
 li a {
     text-decoration: none;
-    color: #fff; /* White color for links */
-    background-color: #0072ff; /* Blue background for buttons */
-    padding: 8px 16px; /* Adjusted padding */
+    color: #fff; 
+    background-color: #0072ff; 
+    padding: 8px 16px; 
     border-radius: 5px;
     font-weight: bold;
-    font-size: 1rem; /* Adjusted size */
+    font-size: 1rem; 
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 li a:hover {
-    background-color: #005cbf; /* Darker blue on hover */
+    background-color: #005cbf; 
     box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
 }
 
-/* Footer Styles */
 footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 15px 0; /* Adjusted padding */
-    font-size: 1rem; /* Reduced size */
+    padding: 15px 0; 
+    font-size: 1rem; 
     letter-spacing: 1px;
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.3);
     position: fixed;
@@ -113,27 +105,26 @@ footer {
     bottom: 0;
 }
 
-/* Media Queries for Accessibility */
 @media (max-width: 768px) {
     h1 {
-        font-size: 2rem; /* Smaller heading on mobile */
+        font-size: 2rem; 
     }
 
     #company-list {
-        padding: 20px; /* Reduced padding for mobile */
+        padding: 20px; 
     }
 
     li {
-        flex-direction: column; /* Stack items on smaller screens */
-        align-items: flex-start; /* Align items to start */
+        flex-direction: column; 
+        align-items: flex-start; 
     }
 
     li a {
-        width: 100%; /* Full-width buttons on mobile */
-        text-align: center; /* Center text on buttons */
+        width: 100%; 
+        text-align: center; 
     }
 
     li h3 {
-        font-size: 1.4rem; /* Smaller font size for mobile */
+        font-size: 1.4rem; 
     }
 }
